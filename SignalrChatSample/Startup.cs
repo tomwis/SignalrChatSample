@@ -46,7 +46,7 @@ namespace SignalrChatSample
             {
                 app.UseExceptionHandler("/Error");
             }
-
+            
             app.UseStaticFiles();
             app.UseCookiePolicy();
             app.UseSignalR(routes =>
